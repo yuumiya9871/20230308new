@@ -1,0 +1,335 @@
+body {
+  background-color: #d7d7d7;
+}
+
+.main-page {
+  background-color: #ffff;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header-box {
+  width: 900px;
+  height: 109px;
+  border-top: #747474 6px solid;
+  padding: 10px 30px;
+}
+
+.header-tel-box {
+  display: flex;
+  position: relative;
+  left: 750px;
+}
+
+.tel {
+  font-size: 13px;
+}
+
+.icon1 {
+  font-size: 16px;
+  margin: 0 0 0 15px;
+  color: #747474;
+}
+
+a {
+  text-decoration: none;
+  color: #747474;
+}
+
+.link {
+  margin: 0 0 30px 0;
+  width: 900px;
+  height: 60px;
+}
+
+.link-box {
+  color: #747474;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: futura,
+    Arial,
+    Helvetica,
+    "ＭＳ Ｐゴシック",
+    "Hiragino Kaku Gothic Pro",
+    "ヒラギノ角ゴ Pro W3",
+    "メイリオ",
+    Meiryo,
+    "ＭＳ Ｐゴシック";
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.header-bottom-line {
+  width: 960px;
+  height: 2px;
+  background-color: #747474;
+  border-bottom: #ffff solid 1px;
+}
+
+.menu-topbar {
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 0 10px 0;
+  width: 960px;
+  height: 37px;
+  background-color: #747474;
+}
+
+.nav_1 {
+  padding: 0 10px 0 10px;
+  font-size: 12px;
+  text-align: center;
+  color: #ffff;
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
+
+.menu-bottom-line {
+  width: 960px;
+  height: 2px;
+  background-color: #747474;
+  border-top: #ffff 1px solid;
+  margin-bottom: 30px;
+}
+
+main {
+  margin: 0 auto;
+  padding-bottom: 50px;
+  width: 960px;
+}
+
+.flex-box {
+  margin: 0 auto;
+}
+
+.img {
+  width: 900px;
+  height: 391.297px;
+  margin-bottom: 30px;
+}
+
+.main-box {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.main-box1 {
+  display: block;
+}
+
+.date-box {
+  margin: 0 0 25px 0;
+}
+
+.date {
+  color: #ffff;
+  background-color: #747474;
+  height: 40px;
+  width: 250px;
+  font-size: 13px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: Arial,
+    Helvetica,
+    "ＭＳ Ｐゴシック",
+    "Hiragino Kaku Gothic Pro",
+    "ヒラギノ角ゴ Pro W3",
+    "メイリオ",
+    Meiryo,
+    "ＭＳ Ｐゴシック";
+}
+
+.access-box {
+  border: 1px solid #747474;
+  margin: 0 0 25px 0;
+  padding: 0 0 20px 0;
+  width: 248px;
+}
+
+.access-text1 {
+  width: 248px;
+  height: 40px;
+  background-color: #747474;
+  color: #ffff;
+  font-size: 13px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 40px;
+  font-family: Arial,
+    Helvetica,
+    "ＭＳ Ｐゴシック",
+    "Hiragino Kaku Gothic Pro",
+    "ヒラギノ角ゴ Pro W3",
+    "メイリオ",
+    Meiryo,
+    "ＭＳ Ｐゴシック";
+}
+
+.num {
+  font-weight: bolder;
+}
+
+.today-area {
+  font-size: 13px;
+  margin: 0 20px 7px;
+  letter-spacing: 1px;
+}
+
+.yesterday-area {
+  font-size: 13px;
+  margin: 0 20px 7px;
+  letter-spacing: 1px;
+}
+
+.total-area {
+  font-size: 13px;
+  margin: 0 20px;
+  letter-spacing: 1px;
+}
+
+.qr-code-box {
+  border: #747474 1px solid;
+  width: 248px;
+  height: 160px;
+  padding-bottom: 20px;
+}
+
+.qr-code-title {
+  background-color: #747474;
+  color: #ffff;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 13px;
+  height: 40px;
+  margin-bottom: 20px;
+  line-height: 40px;
+  font-family: Arial,
+    Helvetica,
+    "ＭＳ Ｐゴシック",
+    "Hiragino Kaku Gothic Pro",
+    "ヒラギノ角ゴ Pro W3",
+    "メイリオ",
+    Meiryo,
+    "ＭＳ Ｐゴシック";
+}
+
+.qr-code-img {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+}
+
+.main-box2 {
+  margin-left: 25px;
+}
+
+.welcome-box {
+  width: 620px;
+  height: 286px;
+  margin-bottom: 40px;
+}
+
+.box-title1 {
+  width: 604px;
+  height: 30px;
+  color: #747474;
+  font-size: 23px;
+  margin: 0 0 2px 0;
+  border-left: 6px solid #747474;
+  line-height: 30px;
+  padding-left: 10px;
+  font-family: Arial,
+    Helvetica,
+    "ＭＳ Ｐゴシック",
+    "Hiragino Kaku Gothic Pro",
+    "ヒラギノ角ゴ Pro W3",
+    "メイリオ",
+    Meiryo,
+    "ＭＳ Ｐゴシック";
+    letter-spacing: 1px;
+}
+
+.title-border {
+  height: 4px;
+  background-color: #747474;
+  margin: 0 0 2px 0;
+}
+
+.title-border2 {
+  border-bottom: 1px solid #747474;
+  margin: 0 0 20px 0;
+}
+
+.text1 {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.sample {
+  height: 34px;
+  margin: 15px 0px;
+  padding: 10px 5px;
+  border: 1px solid #cccc;
+  text-align: center;
+}
+
+dl {
+  display: flex;
+}
+
+.sample-img {
+  width: 31px;
+  height: 31px;
+}
+
+.text2 {
+  font-size: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.info-text {
+  font-size: 13px;
+}
+
+.info-date {
+  margin-right: 10px;
+}
+
+.flex-box {
+  width: 900px;
+  height: 839.297px;
+  margin-bottom: 30px;
+}
+
+.footer-box {
+  display: flex;
+  background-color: #747474;
+  width: 960px;
+  height: 42px;
+}
+
+.copyright {
+  color: #ffff;
+  margin: 10px 30px;
+  font-size: 12px;
+  float: left;
+}
+
+.icon2 {
+  margin: 10px 30px;
+  float: right;
+  font-size: 12px;
+  position: relative;
+  left: 550px;
+}
